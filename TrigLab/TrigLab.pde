@@ -11,7 +11,7 @@ int theta = 0;
 //moon variables
 float mx;
 float my;
-int eTheta = 5;
+int eTheta = 0;
 
 //window setup and giving value to x and y
 void setup() {
@@ -40,7 +40,7 @@ void draw() {
   //moon
   mx = ex +.4*radius*cos(radians(eTheta));
   my = ey +.4*radius*sin(radians(eTheta));
-  
+
   //drawing these methods
   earth();
   moon();
