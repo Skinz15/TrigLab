@@ -8,15 +8,15 @@ void setup() {
 
   x = width/2;
   y = height/2;
+  
+   //stationary circle
+  circle(x, y, radius);
 }
 
 void draw() {
-  //stationary circle
-  circle(x, y, radius);
-  
-  //sun
+    //sun
   fill(255,216,45);
-  
+  circle(x,y,radius/4);
 }
 
 void circle(float x, float y, float radius) {
