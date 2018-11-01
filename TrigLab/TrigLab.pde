@@ -1,4 +1,4 @@
-//orbitting la
+//orbitting lab
 
 //declare variables
 float x;
