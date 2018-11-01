@@ -38,8 +38,8 @@ void draw() {
   ex = x+radius*cos(radians(theta));
   ey = y+radius*sin(radians(theta));
   //moon
-  mx = ex +.4*radius*cos(radians(eTheta));
-  my = ey +.4*radius*sin(radians(eTheta));
+  mx = ex +.2*radius*cos(radians(eTheta));
+  my = ey +.2*radius*sin(radians(eTheta));
 
   //drawing these methods
   earth();
